@@ -1,0 +1,29 @@
+img {
+    height: 400px;
+}
+.container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+p {
+    width: fit-content;
+    font-size: 20px;
+    font-weight: bold;
+}
+div.deal {
+    align-items: center;
+}
+@media (max-width: 600px) {
+    p {
+        font-size: smaller;
+    }
+    img {
+        height: 200px;
+    }
+    .container {
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+    }
+}

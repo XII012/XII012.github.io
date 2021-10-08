@@ -1,0 +1,11 @@
+div.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+div.project {
+    flex-grow: 3;
+    flex-shrink: 1;
+}
